@@ -1,12 +1,12 @@
-Code to create a GKE cluster using terraform
+Code to create a GKE cluster using terraform.
 
-## Requirements
+### Requirements
 1. Google cloud access and a project.
 2. gcloud & kubectl setup on local machine (if you want to connect to the cluster after creation).
 3. Terraform setup on your local machine.
 
 
-## How To Use
+#### How To Use
 1. Checkout the repository.
 2. Create a service account with project editor role and download the json key file.
 3. Add the following key value pairs to terraform.tfvars file.
