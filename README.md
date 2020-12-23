@@ -5,7 +5,7 @@ Code to create a GKE cluster.
 2. gcloud & kubectl setup on local machine (if you want to connect to the cluster after creation).
 
 
-**How To Use**
+## How To Use
 1. Checkout the repository.
 2. Create a service account with project editor role and download the json key file.
 3. Add the following key value pairs to terraform.tfvars file.
@@ -18,6 +18,6 @@ Code to create a GKE cluster.
 
 4. Run terraform apply in the directory.
 
-**Connecting To The Cluster After Creation**
+## Connecting To The Cluster After Creation**
 1. gcloud container clusters get-credentials shop-app (or the cluster name you choose).
 2. 
