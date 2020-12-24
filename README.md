@@ -20,5 +20,6 @@ Code to create a GKE cluster using terraform.
 4. Run terraform apply in the directory.
 
 #### Connecting To The Cluster After Creation
-1. gcloud container clusters get-credentials shop-app (or the cluster name you choose).
-2. 
+1. gcloud container clusters get-credentials shop-app --region=europe-west2 (or the cluster name and region you choose).
+2. kubectl get nodes, to see the total number of nodes in the cluster.
+
