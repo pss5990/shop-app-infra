@@ -10,12 +10,12 @@ variable "poject_id" {
 
 variable "project_default_region" {
   type    = string
-  default = "europe-west2"
+  default = "europe-west1"
 }
 
 variable "project_default_zone" {
   type    = string
-  default = "europe-west2-a"
+  default = "europe-west1-a"
 }
 
 variable "gke_cluster_name" {
@@ -37,7 +37,7 @@ variable "vpc_subnetwork" {
   type = map
   default = {
     name       = "subnet-eu"
-    region     = "europe-west2"
+    region     = "europe-west1"
     cidr_range = "10.132.0.0/20"
   }
 }
